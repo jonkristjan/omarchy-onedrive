@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Office Web App (OneDrive)
+Comment=Open OneDrive files in Excel, Word or PowerPoint for the web; other files in LibreOffice
+Exec=onedrive-office-open %F
+Icon=microsoft-onedrive
+Terminal=false
+NoDisplay=true
+MimeType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;application/vnd.ms-excel.sheet.macroEnabled.12;application/vnd.ms-excel.sheet.binary.macroEnabled.12;application/vnd.ms-excel;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.ms-word.document.macroEnabled.12;application/msword;application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.ms-powerpoint.presentation.macroEnabled.12;application/vnd.ms-powerpoint;application/vnd.openxmlformats-officedocument.presentationml.slideshow;

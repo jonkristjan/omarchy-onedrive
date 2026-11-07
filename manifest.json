@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "jonkristjan.onedrive",
+  "name": "OneDrive",
+  "version": "1.0.0",
+  "author": "Jon Nyholt",
+  "license": "MIT",
+  "description": "Status of the OneDrive client (abraunegg/onedrive) in the Omarchy bar: sync state, synced folders, recent file activity and failed items.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "OneDrive",
+    "description": "OneDrive sync status, synced folders, recent uploads and downloads, and quick access to the folder, the web and the log.",
+    "category": "Status",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "refreshIntervalSec": 15
+    },
+    "schema": [
+      {
+        "key": "refreshIntervalSec",
+        "type": "integer",
+        "label": "Refresh interval (seconds)",
+        "min": 5,
+        "max": 300,
+        "step": 5,
+        "defaultValue": 15
+      }
+    ]
+  }
+}
